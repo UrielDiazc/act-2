@@ -1,0 +1,71 @@
+h1, h2, h3, h4, nav, footer{
+  font-family: Arial, cambria;
+
+}
+
+body{
+  font-family: serif;
+  font-size: 100%;
+  background-color: rgb(10, 10, 10);
+}
+
+article{
+  background-color: white;
+  margin-top: 4em;
+  margin-right: 4em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+  padding: 1em;
+}
+
+h1{
+  background-color: rgba(150, 150, 250, 0.2);
+  height: 100px;
+}
+
+nav ul li "#15"{
+  font-size: 4em;
+  background-color: rgb(100, 150, 170);
+  padding: 0.5em;
+}
+
+nav{
+  font-size: 1em;
+  background-color: rgb(230, 230, 230);
+  padding: 0.5em;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+a:link{
+  font-weight: bold;
+  color: rgb(71, 179, 215)
+}
+
+a:visited{
+  color: rgb(187, 120, 255);
+}
+
+a:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+
+section{
+  height: 300px;
+  margin: 20;
+  display: flex;
+  background-color: lightgray;
+  padding: 50px;
+  font-size: 20px;
+
+}
+
+div{
+  background-color: darkblue;
+  margin: 10px;
+  padding: 20px;
+}
